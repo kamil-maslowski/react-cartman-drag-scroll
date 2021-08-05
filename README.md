@@ -1,4 +1,4 @@
-# React Indiana Drag Scroll
+# React Cartman Drag Scroll
 
 > Implements scroll on drag
 
@@ -74,5 +74,7 @@ class Example extends Component {
 To set initial scroll you need get the ref to the root node of the `ScrollContainer`. It can be implemented by [using `innerRef`property](https://codesandbox.io/s/react-indiana-drag-scroll-initial-scroll-innerref-0g8v5?file=/index.js) or [the static function `getElement`](https://codesandbox.io/s/react-indiana-drag-scroll-initial-scroll-getelement-99o6q). At the worst you can use the [`ReactDOM.findDOMNode`](https://codesandbox.io/s/react-indiana-drag-scroll-initial-scroll-finddomnode-dvdop) method.
 
 ## License
+
+Copyright for portions of project react-cartman-drag-scroll are held by [norserium/react-indiana-drag-scroll, 2021] as part of project react-indiana-drag-scroll. All other copyright for project react-cartman-drag-scroll are held by [kamil-maslowski/react-cartman-drag-scroll, 2021].
 
 The source code is licensed under MIT, all images (except [hieroglyphs](https://www.freepik.com/free-vector/ancient-egypt-hieroglyphics-background-with-flat-design_2754100.htm)) are copyrighted to their respective owner © [Norserium](https://github.com/norserium)

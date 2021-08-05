@@ -228,9 +228,9 @@ export default class ScrollContainer extends PureComponent {
     this.started = true
 
     // Add the class to change displayed cursor
-    if (changeCursor) {
-      document.body.classList.add('indiana-dragging')
-    }
+    // if (changeCursor) {
+    //   document.body.classList.add('indiana-dragging')
+    // }
 
     if (onStartScroll) {
       onStartScroll(container.scrollLeft, container.scrollTop, container.scrollWidth, container.scrollHeight)
@@ -290,7 +290,7 @@ export default class ScrollContainer extends PureComponent {
     if (container && onEndScroll) {
       onEndScroll(container.scrollLeft, container.scrollTop, container.scrollWidth, container.scrollHeight)
     }
-    document.body.classList.remove('indiana-dragging')
+    // document.body.classList.remove('indiana-dragging')
     this.forceUpdate()
   }
 
